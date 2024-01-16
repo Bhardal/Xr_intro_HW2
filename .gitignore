@@ -73,3 +73,6 @@ crashlytics-build.properties
 
 # Previous Project versions and/or builds
 XR_HW1_v1/
+
+# VSCode assets
+/.vscode/
