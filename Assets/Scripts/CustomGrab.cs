@@ -58,7 +58,8 @@ public class CustomGrab : MonoBehaviour
                 OldGPos = grabbedObject.position;
                 OldHPos = transform.position;
                 // Rotation
-                // grabbedObject.rotation = transform.rotation;
+
+                grabbedObject.rotation = transform.rotation;
                 var currentRotaAngles = transform.eulerAngles;
                 var oldRotaAngles = OldHRota.eulerAngles;
                 var x = grabbedObject.eulerAngles.x + currentRotaAngles.x-oldRotaAngles.x;
@@ -76,12 +77,10 @@ public class CustomGrab : MonoBehaviour
                     z -= 360;
                 if(z < -180)
                     z += 360;
-                // Vector3 futurAngle = new(grabbedObject.eulerAngles.x+currentRotaAngles.x-oldRotaAngles.x, grabbedObject.eulerAngles.y+currentRotaAngles.y-oldRotaAngles.y, grabbedObject.eulerAngles.z+currentRotaAngles.z-oldRotaAngles.z);
 
                 Vector3 futurAngle = new(x, y, z);
                 grabbedObject.eulerAngles = futurAngle;
-                // float angle = Quaternion.Angle(OldHRota, transform.rotation);
-                // grabbedObject.rotation = OldGRota + angle;
+
                 OldGRota = grabbedObject.rotation;
                 OldHRota = transform.rotation;
             }
