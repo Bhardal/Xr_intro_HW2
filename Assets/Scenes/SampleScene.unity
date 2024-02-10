@@ -3538,22 +3538,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Left Controller :
+  m_text: 'Right Controller :
 
-    x : Switches from Starting position to world view
+    - **a** : Closes the game window
 
-    y
-    : Switches from slow to medium and to fast moon
+    
 
+    Both
+    Controllers :
 
-
-    Right Controller :
-
-    a
-    : Closes the game window
-
-    b : Switches the light in the room from a random
-    one to white'
+    - **Grip** : Grabs the object'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
