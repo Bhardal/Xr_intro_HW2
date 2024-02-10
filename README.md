@@ -5,8 +5,8 @@ ___
 
 This is a Unity VR project you are in a cubic room along with a light.<br>
 The light's base color is White (255,255,255). <br>
-Outside of the Room is a Custom made Skybox, created from one of my Minecraft Texture packs.
-In front of you is a scope. You can grab it and rotate it with one or both hands.
+Outside of the Room is a Custom made Skybox, created from one of my Minecraft Texture packs. <br>
+In front of you is a scope. You can grab it and rotate it with one or both hands. <br>
 The lens allows you to see a hidden message on one of the walls.
 
 ___
